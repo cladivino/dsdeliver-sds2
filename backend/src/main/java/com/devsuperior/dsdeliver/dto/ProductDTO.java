@@ -5,14 +5,14 @@ import java.io.Serializable;
 import com.devsuperior.dsdeliver.entities.Product;
 
 public class ProductDTO implements Serializable {
-	
+
 	private static final long serialVersionUID = 1L;
 	private long id;
 	private String name;
 	private Double price;
 	private String description;
 	private String imageUri;
-	
+
 	public ProductDTO() {}
 
 	public ProductDTO(long id, String name, Double price, String description, String imageUri) {
@@ -71,6 +71,5 @@ public class ProductDTO implements Serializable {
 		this.imageUri = imageUri;
 	}
 
-	
-}
 
+}
